@@ -5,7 +5,7 @@ import gradio as gr
 from ultralytics import YOLO
 import numpy as np
 
-#Two models
+#Two models , Ican't upload it because size > 25MB
 plate_model = YOLO("/home/issa/Documents/PlateDetectionFINALLLY/runs/detect/train/weights/best.pt")
 number_model = YOLO("/home/issa/Documents/NumbersLarge/runs/detect/train/weights/best.pt")
 
